@@ -1,0 +1,4 @@
+/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/rebuild_cache.dir
+/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/edit_cache.dir
+/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/othello_tests.dir
+/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/othello.dir
