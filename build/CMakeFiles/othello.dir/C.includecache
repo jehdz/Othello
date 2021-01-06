@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jehdz/Desktop/othello-project-jehdz/board.c
+/Users/jehdz/Desktop/othello/board.c
 stdio.h
 -
 ctype.h

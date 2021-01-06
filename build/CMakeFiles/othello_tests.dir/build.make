@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jehdz/Desktop/othello-project-jehdz
+CMAKE_SOURCE_DIR = /Users/jehdz/Desktop/othello
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jehdz/Desktop/othello-project-jehdz/build
+CMAKE_BINARY_DIR = /Users/jehdz/Desktop/othello/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/othello_tests.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/othello_tests.dir/flags.make
 
 CMakeFiles/othello_tests.dir/board_tests.cc.o: CMakeFiles/othello_tests.dir/flags.make
 CMakeFiles/othello_tests.dir/board_tests.cc.o: ../board_tests.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/othello_tests.dir/board_tests.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/othello_tests.dir/board_tests.cc.o -c /Users/jehdz/Desktop/othello-project-jehdz/board_tests.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jehdz/Desktop/othello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/othello_tests.dir/board_tests.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/othello_tests.dir/board_tests.cc.o -c /Users/jehdz/Desktop/othello/board_tests.cc
 
 CMakeFiles/othello_tests.dir/board_tests.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/othello_tests.dir/board_tests.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jehdz/Desktop/othello-project-jehdz/board_tests.cc > CMakeFiles/othello_tests.dir/board_tests.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jehdz/Desktop/othello/board_tests.cc > CMakeFiles/othello_tests.dir/board_tests.cc.i
 
 CMakeFiles/othello_tests.dir/board_tests.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/othello_tests.dir/board_tests.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jehdz/Desktop/othello-project-jehdz/board_tests.cc -o CMakeFiles/othello_tests.dir/board_tests.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jehdz/Desktop/othello/board_tests.cc -o CMakeFiles/othello_tests.dir/board_tests.cc.s
 
 CMakeFiles/othello_tests.dir/board_getTested.c.o: CMakeFiles/othello_tests.dir/flags.make
 CMakeFiles/othello_tests.dir/board_getTested.c.o: ../board_getTested.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/othello_tests.dir/board_getTested.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/othello_tests.dir/board_getTested.c.o -c /Users/jehdz/Desktop/othello-project-jehdz/board_getTested.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jehdz/Desktop/othello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/othello_tests.dir/board_getTested.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/othello_tests.dir/board_getTested.c.o -c /Users/jehdz/Desktop/othello/board_getTested.c
 
 CMakeFiles/othello_tests.dir/board_getTested.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/othello_tests.dir/board_getTested.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jehdz/Desktop/othello-project-jehdz/board_getTested.c > CMakeFiles/othello_tests.dir/board_getTested.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jehdz/Desktop/othello/board_getTested.c > CMakeFiles/othello_tests.dir/board_getTested.c.i
 
 CMakeFiles/othello_tests.dir/board_getTested.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/othello_tests.dir/board_getTested.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jehdz/Desktop/othello-project-jehdz/board_getTested.c -o CMakeFiles/othello_tests.dir/board_getTested.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jehdz/Desktop/othello/board_getTested.c -o CMakeFiles/othello_tests.dir/board_getTested.c.s
 
 # Object files for target othello_tests
 othello_tests_OBJECTS = \
@@ -115,7 +115,7 @@ bin/othello_tests: CMakeFiles/othello_tests.dir/board_getTested.c.o
 bin/othello_tests: CMakeFiles/othello_tests.dir/build.make
 bin/othello_tests: /usr/local/lib/libgtest.a
 bin/othello_tests: CMakeFiles/othello_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/othello_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jehdz/Desktop/othello/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/othello_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/othello_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/othello_tests.dir/clean:
 .PHONY : CMakeFiles/othello_tests.dir/clean
 
 CMakeFiles/othello_tests.dir/depend:
-	cd /Users/jehdz/Desktop/othello-project-jehdz/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jehdz/Desktop/othello-project-jehdz /Users/jehdz/Desktop/othello-project-jehdz /Users/jehdz/Desktop/othello-project-jehdz/build /Users/jehdz/Desktop/othello-project-jehdz/build /Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/othello_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jehdz/Desktop/othello/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jehdz/Desktop/othello /Users/jehdz/Desktop/othello /Users/jehdz/Desktop/othello/build /Users/jehdz/Desktop/othello/build /Users/jehdz/Desktop/othello/build/CMakeFiles/othello_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/othello_tests.dir/depend
 

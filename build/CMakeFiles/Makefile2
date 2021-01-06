@@ -63,10 +63,10 @@ RM = /usr/local/Cellar/cmake/3.18.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jehdz/Desktop/othello-project-jehdz
+CMAKE_SOURCE_DIR = /Users/jehdz/Desktop/othello
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jehdz/Desktop/othello-project-jehdz/build
+CMAKE_BINARY_DIR = /Users/jehdz/Desktop/othello/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -95,14 +95,14 @@ clean: CMakeFiles/othello.dir/clean
 CMakeFiles/othello_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/othello_tests.dir/build.make CMakeFiles/othello_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/othello_tests.dir/build.make CMakeFiles/othello_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles --progress-num=3,4,5 "Built target othello_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jehdz/Desktop/othello/build/CMakeFiles --progress-num=3,4,5 "Built target othello_tests"
 .PHONY : CMakeFiles/othello_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/othello_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/othello_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello/build/CMakeFiles 0
 .PHONY : CMakeFiles/othello_tests.dir/rule
 
 # Convenience name for target.
@@ -122,14 +122,14 @@ CMakeFiles/othello_tests.dir/clean:
 CMakeFiles/othello.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/othello.dir/build.make CMakeFiles/othello.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/othello.dir/build.make CMakeFiles/othello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles --progress-num=1,2 "Built target othello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jehdz/Desktop/othello/build/CMakeFiles --progress-num=1,2 "Built target othello"
 .PHONY : CMakeFiles/othello.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/othello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/othello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jehdz/Desktop/othello/build/CMakeFiles 0
 .PHONY : CMakeFiles/othello.dir/rule
 
 # Convenience name for target.

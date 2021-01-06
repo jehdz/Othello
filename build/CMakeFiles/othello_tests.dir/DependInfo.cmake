@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/jehdz/Desktop/othello-project-jehdz/board_getTested.c" "/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/othello_tests.dir/board_getTested.c.o"
+  "/Users/jehdz/Desktop/othello/board_getTested.c" "/Users/jehdz/Desktop/othello/build/CMakeFiles/othello_tests.dir/board_getTested.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jehdz/Desktop/othello-project-jehdz/board_tests.cc" "/Users/jehdz/Desktop/othello-project-jehdz/build/CMakeFiles/othello_tests.dir/board_tests.cc.o"
+  "/Users/jehdz/Desktop/othello/board_tests.cc" "/Users/jehdz/Desktop/othello/build/CMakeFiles/othello_tests.dir/board_tests.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

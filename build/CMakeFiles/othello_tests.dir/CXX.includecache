@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/jehdz/Desktop/othello-project-jehdz/board.h
+/Users/jehdz/Desktop/othello/board.h
 stdio.h
 -
 ctype.h
@@ -14,7 +14,7 @@ ctype.h
 stdlib.h
 -
 
-/Users/jehdz/Desktop/othello-project-jehdz/board.hh
+/Users/jehdz/Desktop/othello/board.hh
 stdio.h
 -
 ctype.h
@@ -22,13 +22,13 @@ ctype.h
 stdlib.h
 -
 board.h
-/Users/jehdz/Desktop/othello-project-jehdz/board.h
+/Users/jehdz/Desktop/othello/board.h
 
-/Users/jehdz/Desktop/othello-project-jehdz/board_tests.cc
+/Users/jehdz/Desktop/othello/board_tests.cc
 gtest/gtest.h
 -
 board.hh
-/Users/jehdz/Desktop/othello-project-jehdz/board.hh
+/Users/jehdz/Desktop/othello/board.hh
 
 /usr/local/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/Users/jehdz/Desktop/othello/board.h
+stdio.h
+-
+ctype.h
+-
+stdlib.h
+-
+
+/Users/jehdz/Desktop/othello/board_getTested.c
+stdio.h
+-
+ctype.h
+-
+stdlib.h
+-
+board.h
+/Users/jehdz/Desktop/othello/board.h
+
